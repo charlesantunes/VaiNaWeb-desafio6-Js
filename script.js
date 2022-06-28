@@ -56,9 +56,12 @@ console.log(`O melhor amigo de ${cadastro[2].nome} é ${cadastro[2].amigos[3]}`)
 console.log(`O melhor amigo de ${cadastro[3].nome} é ${cadastro[3].amigos[2]}`);
 console.log(`O melhor amigo de ${cadastro[4].nome} é ${cadastro[4].amigos[0]}`);
 
-
-
-
+//outra forma de resposta.
+for (let i = 0; i < cadastro.length; i++) {
+        let j = Math.floor(Math.random()*4
+        ); 
+        console.log(`O melhor amigo de ${cadastro[i].nome} é ${cadastro[i].amigos[j]}`); 
+}
 
 
 
